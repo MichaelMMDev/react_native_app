@@ -1,10 +1,13 @@
 import React from 'react';
-import { View, Text} from 'react-native';
+import { View, Text,TextInput} from 'react-native';
+import { styles } from './style';
+
 
 export  function SignIn() {
   return(
-    <View>
+    <View style={styles.container}>
       <Text>olá mundoooo</Text>
+      <TextInput/>
     </View>
   )
 }

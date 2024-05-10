@@ -5,5 +5,5 @@ import { SignIn } from './src/screens';
 export default function app() {
   return(
     <SignIn/>
-  )
+  );
 }
