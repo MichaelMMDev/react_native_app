@@ -9,7 +9,7 @@ export  function SignIn() {
   return(
    <View style={styles.container}>
 
-     <Image source={} />
+     <Image source={IlustrationImg} style={styles.image} resizeMode='stretch'/>
 
    </View>
   )
